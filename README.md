@@ -109,7 +109,6 @@ The chatbot follows a simple rule-based decision process:
 
 The following flowchart represents the overall working of the chatbot:
 
-![Chatbot Flowchart](chatbot_flowchart.png)
 
 ### Flowchart Explanation
 
@@ -164,8 +163,12 @@ Match Known Topic?
                           v
                     Get User Input
 
+```text
+---
+
 ## Project Architecture
 
+```text
 The chatbot is organized into several simple components:
 
                     User
@@ -201,8 +204,12 @@ The chatbot is organized into several simple components:
                       v
            Conversation History
 
+```text
+---
+
 ## Project Structure
 
+```text
 rule-based-ai-study-chatbot/
 │
 ├── rule_based_chatbot.py
@@ -213,7 +220,8 @@ rule-based-ai-study-chatbot/
     ├── [![AI Questions](Screenshots/02_ai_questions.png)](Screenshots/02_ai_questions.png)
     ├── [![Quiz Mode](Screenshots/03_quiz_mode.png)](Screenshots/03_quiz_mode.png)
     └── [![Conversation History ](Screenshots/04_conversation_history.png)](Screenshots/04_conversation_history.png)
-
+```text
+---
 
 ## Future Scope
 
